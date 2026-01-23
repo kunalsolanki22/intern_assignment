@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to check if a string is empty (-z)
+
 validate_input() {
     if [ -z "$1" ]; then
         echo "Error: Input cannot be empty!"
@@ -8,7 +8,7 @@ validate_input() {
     fi
 }
 
-# Function to perform addition
+
 add_numbers() {
     local sum=$(( $1 + $2 ))
     echo "The result is: $sum"
